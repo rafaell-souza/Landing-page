@@ -46,16 +46,20 @@ Vectors and icons by <a href="https://www.figma.com/community/file/1166831539721
 
 .container {
     width: 100%;
-    height: 300px;
+    height: 330px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-   
+    background: ble;
 }
 
 .form {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 290px;
+    width: 250px;
+    margin-right: 100px;
 }
 
 .form form {
@@ -63,34 +67,35 @@ Vectors and icons by <a href="https://www.figma.com/community/file/1166831539721
     flex-direction: column;
     width: 220px;
     height: 310px;
-    margin: 0 100px;
     padding: 10px;
     border-radius: 10px;
 }
 
 .form input {
-    margin-top: 2px;
-    width: 200px;
-    height: 21px;
+    margin-top: 5px;
+    width: 180px;
+    height: 25px;
     border-radius: 5px;
     border: none;
     background: rgba(219, 222, 12, 0.96);
     color: rgb(0, 0, 0);
     font-size: 15px;
     padding: 5px;
-    border: solid 1px rgb(255, 0, 0);
+    border: solid 1px rgb(219, 7, 7);
 }
 
-.form label {
-    margin-top: 2px;
+.form input::placeholder {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     font-size: 12px;
-    color: white;
 }
+
+
 
 .form button {
-    width: 200px;
+    width: 180px;
     height: 30px;
-    background: rgb(255, 0, 0);
+    background: rgb(210, 8, 8);
     color: white;
     border: none;
     border-radius: 5px;
@@ -106,10 +111,9 @@ Vectors and icons by <a href="https://www.figma.com/community/file/1166831539721
     color: rgb(255, 0, 0);
     font-size: 12px;
     position: absolute;
-    top: 360px;
+    top: 307px;
+    margin-right: 23px;
 }
-
-
 
 .promotion {
     width: 410px;
@@ -118,7 +122,7 @@ Vectors and icons by <a href="https://www.figma.com/community/file/1166831539721
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
-    border-bottom: solid 1px rgb(255, 0, 0);
+    border-bottom: solid 1px rgb(200, 11, 11);
 }
 
 .promotion img {
@@ -154,7 +158,7 @@ Vectors and icons by <a href="https://www.figma.com/community/file/1166831539721
     left: 223px;
     top: 240px;
     font-weight: bold;
-    background: rgb(255, 0, 0);
+    background: rgb(207, 9, 9);
     border-radius: 5px;
     padding: 5px;
 }
